@@ -1,0 +1,44 @@
+# libbson
+
+libbson is a library providing useful routines related to building, parsing,
+and iterating BSON documents.  It is a useful base for those wanting to write
+high-performance C extensions to higher level languages such as python, ruby,
+or perl.
+
+**********************************************************************
+NOTE: this is a modified version, for FreeBSD ports. 
+
+Development version, use at own risk.
+
+Questions? Problems? Help?
+Waitman Gobble <waitman@waitman.net> 2013-07-10
+
+
+Take a look at the Makefiles to see how you can build your programs using the 
+static libbson.a library. 
+
+Examples:
+
+These are the examples included with the distribution. Switch to the examples
+directory and run 'make' to build the examples. There is no install. Run 
+'make clean' to remove the binaries.
+
+Tests:
+
+These are the tests included with the distribution. Switch to the tests 
+directory.
+run:
+> make
+
+to build the tests. Some of the tests require pthreads on your system.
+
+run:
+> make clean
+to remove binaries
+
+run:
+> make run
+to run all tests
+
+There is no install.
+
